@@ -1,2 +1,9 @@
+# TypeScriptソースや設定ファイルはnpm公開から除外
 index.ts
+*.ts
+!*.d.ts
 tsconfig.json
+# その他不要なファイル例
+README.md
+.gitignore
+.npmignore
