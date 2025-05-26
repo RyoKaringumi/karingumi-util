@@ -1,0 +1,23 @@
+{
+  "name": "karingumi-util",
+  "version": "1.0.5",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "RyoKaringumi",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "files":[
+    "dist"
+  ]
+}
